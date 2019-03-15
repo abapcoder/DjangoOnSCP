@@ -1,0 +1,7 @@
+---
+applications:
+- name: mysite
+  host: myvotedjango
+  path: .
+  memory: 128M
+  command: python ./mysite/manage.py runserver --insecure 0.0.0.0:$PORT
